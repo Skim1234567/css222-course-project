@@ -1,0 +1,73 @@
+header {
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    font-size: large;
+    color: black;
+    text-decoration: underline;
+}
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: purple;
+    animation: color 9s infinite linear;
+}
+nav {
+    color: lightgreen;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+ul {
+    list-style-type: none;;
+}
+li {
+    display: block;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: lightgreen;
+    width: 80px;
+}
+
+.food {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.header {
+    text-align: center;
+
+}
+
+img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .styled-paragraph {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Space around the text */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Larger text size */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+@keyframes color {
+    0% {background:  orangered;}
+    20% {background-color: #33CC36;}
+    40% {background: #B8CC33;}
+    60% {background: #FCcA00;}
+    80% {background: #33CC36;}
+    100% {background: #33CCCC;}
+}

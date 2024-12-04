@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link href="mediaqueries.css" rel="stylesheet">
+    <link href="contactlayout.css" rel="stylesheet">
+    <title>My Contact Information</title>
+    <link rel="stylesheet" href="cs222_courseproject/clock.css">
+    <script src="cs222_courseproject/clock.js" defer></script>
+</head>
+<body>
+    <header>My Cafe</header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="cs222_courseproject/contacts.html" title="Contacts">Contacts</a></li>
+            <li><a href="Recipe.html" title="Recipe">Recipe</a></li>
+            <li><a href="orders.html" title="Orders">Orders</a></li>
+            <li><a href="Staff.html" title="Staff">Staff</a></li>
+
+        </ul>
+    </nav>
+   
+<h2>How you can contact me!</h2>
+<p class="styled-paragraph">Time's running out so contact me soon!</p>
+
+    <div class="clock">
+        <div class="clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand second-hand"></div>
+            <div class="button"></div>
+        </div>
+        </div>
+        <div class="digital-clock">
+            <div class="time">12:23:12</div>
+        </div>
+   
+   
+        
+
+<form action="/submit-reservation" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="time">Reservation Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <input type="submit" value="Reserve Table">
+</form>
+    <p>
+        You can contact me through here!<br/>
+        soyeon.kim@my.marianas.edu<br/>
+        (670 789-89-05)
+    </p>
+</body>
+</html>
